@@ -1,0 +1,446 @@
+/* Styles sur la page d'accueil */
+.haut_page_accueil,
+.haut_page_a_propos,
+.bas_page_accueil,
+.bas_page_a_propos {
+    background-color: white;
+    color: #242424;
+}
+
+.body_page_accueil,
+.a_propos_de_robbie_lens {
+    background-color: #1F2039;
+}
+
+.a_propos_de_robbie_lens {
+    border-right: 1px solid #8E86B5;
+    border-bottom: 1px solid #8E86B5;
+
+}
+
+.robbie_lens {
+    display: flex;
+    justify-content: flex-end;
+    order: 2;
+    width: 75%;
+    height: auto;
+}
+
+.robbie_lens img {
+    max-width: 4200px;
+    height: auto;
+    padding: 0;
+}
+
+.bouton_un_projet_ecrivez_moi_accueil {
+    background: linear-gradient(#8E86B5, #ACAEED);
+    color: white;
+    font-family: "Manrope", sans-serif;
+    border-radius: 50px ;
+    border: none;
+    min-height: 3.5em;
+    min-width: 22em;
+}
+
+.bouton_un_projet_ecrivez_moi_accueil:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+}
+
+.body_page_accueil {
+    display: flex;
+    padding: 5% 5% 10% 10%;
+    height: 25em;
+}
+
+.h1_p_accueil h1 {
+    text-align: left;
+}
+
+.h1_p_accueil {
+    text-align: justify;
+    width: 40%;
+    height: 85%;
+    padding: 40px;
+}
+
+.p_accueil {
+    display: flex;
+    height: 60%;
+    align-items: center;
+}
+
+.photos_accueil {
+    padding: 80px;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+.conteneur_1_mon_dernier_projet,
+.conteneur_2_mon_dernier_projet {
+    display: grid;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+} 
+
+.conteneur_1_mon_dernier_projet a,
+.conteneur_2_mon_dernier_projet a {
+    padding: 0;
+}
+
+.conteneur_1_mon_dernier_projet img,
+.conteneur_2_mon_dernier_projet img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.mon_dernier_projet_1,
+.mon_dernier_projet_2,
+.mon_dernier_projet_3 {
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.089);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.mon_dernier_projet_1 img,
+.mon_dernier_projet_2 img,
+.mon_dernier_projet_3 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.mon_dernier_projet_1:hover,
+.mon_dernier_projet_2:hover,
+.mon_dernier_projet_3:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.conteneur_1_mon_dernier_projet:hover .mon_dernier_projet_1:not, .mon_dernier_projet_2:not,.mon_dernier_projet_3:not(.mon_dernier_projet_1:hover,
+.mon_dernier_projet_2:hover,
+.mon_dernier_projet_3:hover) {
+    transform: scale(0.9);
+    filter: saturate(0) blur(4px) brightness(0.5);
+}
+
+.mon_dernier_projet_4,
+.mon_dernier_projet_5,
+.mon_dernier_projet_6 {
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.158);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.mon_dernier_projet_4 img,
+.mon_dernier_projet_5 img,
+.mon_dernier_projet_6 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.mon_dernier_projet_4:hover,
+.mon_dernier_projet_5:hover,
+.mon_dernier_projet_6:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.conteneur_2_mon_dernier_projet:hover .mon_dernier_projet_4:not, .mon_dernier_projet_5:not,.mon_dernier_projet_6:not(.mon_dernier_projet_4:hover,
+.mon_dernier_projet_5:hover,
+.mon_dernier_projet_6:hover) {
+    transform: scale(0.9);
+    filter: saturate(0) blur(4px) brightness(0.5);
+}
+
+.mon_dernier_projet_1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.mon_dernier_projet_1:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.mon_dernier_projet_2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.mon_dernier_projet_2:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.mon_dernier_projet_3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.mon_dernier_projet_3:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.mon_dernier_projet_4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.mon_dernier_projet_4:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.mon_dernier_projet_5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.mon_dernier_projet_5:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.mon_dernier_projet_6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.mon_dernier_projet_6:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.bouton_voir_mon_portfolio_accueil {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    color: white;
+    font-family: "Manrope", sans-serif;
+    border-radius: 50px ;
+    border: none;
+    min-height: 3.5em;
+    min-width: 22em;
+}
+
+.bouton_voir_mon_portfolio_accueil:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bouton_voir_mon_portfolio {
+    display: block;
+    text-align: center;
+}
+
+.section_message {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #1F2039;
+}
+
+h3 {
+    background-color: #1F2039;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    color: #A5B4FC;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+    color: white;
+}
+
+.formulaire_accueil {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2039;
+    color: white;
+    max-width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+.form_nom_email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 60vw;
+}
+
+.form_column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.message_accueil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 100%;
+    width: 60vw;
+}
+
+textarea,
+input {
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+textarea {
+    box-sizing: border-box;
+    resize: vertical;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.bouton_envoyer_accueil {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    color: white;
+    font-family: "Manrope", sans-serif;
+    border-radius: 50px ;
+    border: none;
+    min-height: 3.5em;
+    min-width: 22em;
+}
+
+.bouton_envoyer_accueil:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo_instagram {
+    height: 31px;
+    width: 31px;
+}
+
+.logo_twitter {
+    height: 31px;
+    width: 31px;
+}
+
+.a_lien_icone {
+    padding: 0;
+}
+
+@media screen and (max-width: 1100px) {
+    .body_page_accueil{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .body_page_accueil img {
+        margin-bottom: center;
+        width: 100%;
+    }
+
+    .robbie_lens {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        justify-content: center;
+        order: 1;
+
+    }
+
+    .h1_p_accueil {
+        order: 2;
+        width: 100%;
+        padding: 0;
+    }
+
+    .h1_p_accueil h1 {
+        text-align: center;
+        font-size: 2em;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .h1_p_accueil div {
+        display: block;
+        justify-content: center;
+    }
+
+    .h1_p_accueil p{
+        padding-bottom: 30px;
+    }
+
+    .bouton_un_projet_ecrivez_moi_accueil {
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .conteneur_1_mon_dernier_projet,
+    .conteneur_2_mon_dernier_projet {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .conteneur_1_mon_dernier_projet img,
+    .conteneur_2_mon_dernier_projet img {
+        flex: 1 1 1;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .mon_dernier_projet_3 img {
+        margin-bottom: 15px;
+    }
+
+    .form_nom_email {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .formulaire_accueil {
+        display: flex;
+        flex-direction: column;
+        /* width: 45vw; */
+    }
+}
