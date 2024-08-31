@@ -15,7 +15,6 @@
 .a_propos_de_robbie_lens {
     border-right: 1px solid #8E86B5;
     border-bottom: 1px solid #8E86B5;
-
 }
 
 .robbie_lens {
@@ -53,8 +52,21 @@
     height: 25em;
 }
 
+em {
+    color: #9285d3;
+    font-style: normal;
+    font-weight: 500;
+}
+
 .h1_p_accueil h1 {
     text-align: left;
+}
+
+.h1_p_accueil p {
+    display: block;
+    text-align: justify;
+    padding: 30px 0;
+    height: auto;
 }
 
 .h1_p_accueil {
@@ -307,7 +319,6 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     max-width: 100%;
     width: 60vw;
 }

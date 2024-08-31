@@ -61,23 +61,5 @@ footer {
 }
 
 
-/* Styles sur page A propos */
-.main_a_propos {
-    text-align: justify;
-}
-
-.bouton_voir_mon_portfolio_a_propos {
-    background: linear-gradient(#8E86B5, #ACAEED);
-    color: white;
-    font-family: "Manrope", sans-serif;
-    border-radius: 50px;
-    border: none;
-}
-
-.bouton_voir_mon_portfolio_a_propos:hover {
-    background: linear-gradient(#696484, #8788BA);
-    text-decoration: none;
-}
-
 
 
