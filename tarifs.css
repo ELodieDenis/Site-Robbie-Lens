@@ -1,0 +1,48 @@
+.main_page_tarifs {
+    background-color: #1F2039;
+    color: #242424;
+    padding-top: clamp(1%, 25%, 10%);
+    padding-left: clamp(1%, 25%, 10%);
+    padding-bottom: clamp(1%, 25%, 10%);
+    padding-right: clamp(1%, 25%, 10%);
+}
+
+.h1_tarifs {
+    text-align: center;
+
+}
+
+.tarifs_et_contactez_moi {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bouton_contactez_moi {
+    display: block;
+    text-align: center;
+    margin-bottom: 90px;
+    background: linear-gradient(#8E86B5, #ACAEED);
+    color: white;
+    font-family: "Manrope", sans-serif;
+    border-radius: 50px ;
+    border: none;
+    min-height: 3.5em;
+    min-width: 22em;
+}
+
+.bouton_contactez_moi:hover {
+    background: linear-gradient(#696484, #8788BA);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.haut_tarifs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h3_tarifs {
+    color: #A5B4FC;
+    padding-bottom: 15px;
+}
+
