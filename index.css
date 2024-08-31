@@ -362,17 +362,23 @@ label {
 }
 
 .logo_instagram {
+    padding: 10px;
     height: 31px;
     width: 31px;
 }
 
 .logo_twitter {
+    padding: 10px;
     height: 31px;
     width: 31px;
 }
 
 .a_lien_icone {
     padding: 0;
+}
+
+.bas_page_accueil {
+    display: flex;
 }
 
 @media screen and (max-width: 1100px) {

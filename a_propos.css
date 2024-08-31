@@ -9,7 +9,7 @@
 
 .main_a_propos {
     text-align: justify;
-    padding: 100px;
+    padding: 100px 10px;
     background-color: #1F2039;
 }
 
@@ -23,7 +23,6 @@
     justify-content: center;
     text-align: center;
     padding-bottom: 70px;
-
 }
 
 .photos_robbie_lens_a_propos img {
@@ -32,45 +31,113 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+    position: relative;
+    z-index: 2;
 }
+
 
 .photos_rectangle {
     display: flex;
-    justify-content: right;
-    text-align: right;
+    justify-content: center;
+    text-align: center;
 }
 
 .rectangle_bleu {
     position: absolute;
     z-index: 1; 
-    left: 620px;
-    top: 300px;
+    left: 740px;
+    top: 340px;
+    z-index: 1;
 }
-
 
 .rectangle_bleu img{
     display: flex;
     justify-content: right;
-    width: 400px;
-    height: 190px;
+    width: 920px;
+    height: 410px;
 }
 
-
 .robbie_lens_a_propos {
-    z-index: 0;
+    margin-left: clamp(1%, 50%, 25%);
+    margin-right: clamp(1%, 50%, 35%);
+    text-align: left;
+}
+
+.robbie_lens_a_propos p,
+.robbie_lens_a_propos h2,
+.robbie_lens_a_propos ul {
+    justify-content: center;
+    /* margin-left: 500px;
+    margin-right: 500px; */
+}
+
+.h1_a_propos {
+    margin-left: clamp(1%, 30%, 18%);
+    margin-bottom: 90px;
+}
+
+.robbie_lens_a_propos p {
+    padding-bottom: 35px;
+}
+
+.robbie_lens_a_propos h2 {
+    padding-bottom: 35px;
+    font-weight: normal;
+}
+
+.robbie_lens_a_propos ul {
+    padding-bottom: 75px;
 }
 
 .bouton_voir_mon_portfolio_a_propos {
+    display: block;
+    text-align: center;
+    margin: 30px auto;
     background: linear-gradient(#8E86B5, #ACAEED);
     color: white;
     font-family: "Manrope", sans-serif;
-    border-radius: 50px;
+    border-radius: 50px ;
     border: none;
+    min-height: 3.5em;
+    min-width: 22em;
 }
 
 .bouton_voir_mon_portfolio_a_propos:hover {
     background: linear-gradient(#696484, #8788BA);
     text-decoration: none;
+    cursor: pointer;
 }
 
+.a_lien_icone {
+    padding: 0;
+}
 
+.bas_page_a_propos {
+    display: flex;
+}
+
+.logo_instagram {
+    padding: 10px;
+}
+
+.logo_twitter {
+    padding: 10px;
+}
+
+@media (min-width: 1930px) {
+    .photos_robbie_lens_a_propos img {
+        display: none;
+    }
+
+    .rectangle_bleu {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1800px) {
+    .photos_rectangle {
+        display: none;
+    }
+
+}
