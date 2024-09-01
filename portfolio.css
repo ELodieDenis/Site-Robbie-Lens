@@ -1,0 +1,328 @@
+.section_1_portfolio {
+    padding-top: clamp(1%, 15%, 5%);
+    padding-left: clamp(1%, 25%, 10%);
+    padding-bottom: clamp(1%, 15%, 5%);
+    padding-right: clamp(1%, 15%, 5%);
+    background-color: #1F2039;
+}
+
+.section_2_portfolio {
+    padding-top: clamp(1%, 10%, 3%);
+    padding-left: clamp(1%, 25%, 10%);
+    padding-bottom: clamp(1%, 20%, 5%);
+    padding-right: clamp(1%, 25%, 10%);
+}
+
+.h1_portfolio h1 {
+    font-family: "Montserrat", sans-serif; 
+    color: #A5B4FC;
+    font-size: 3.5em;
+    font-weight: normal;
+    background-color: #1F2039;
+}
+
+.h2_portfolio h2 {
+    color: black;
+    padding-bottom: clamp(1%, 10%, 3%);
+    font-weight: 500;
+}
+
+.conteneur_1_paysages,
+.conteneur_2_paysages {
+    display: grid;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: left;
+} 
+
+.conteneur_1_paysages a,
+.conteneur_2_paysages a {
+    padding: 0;
+}
+
+.conteneur_1_paysages img,
+.conteneur_2_paysages img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.paysages_1,
+.paysages_2,
+.paysages_3 {
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.089);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.paysages_1 img,
+.paysages_2 img,
+.paysages_3 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.paysages_1:hover,
+.paysages_2:hover,
+.paysages_3:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.conteneur_1_paysages:hover .paysages_1:not, .paysages_2:not,.paysages_3:not(.paysages_1:hover,
+.paysages_2:hover,
+.paysages_3:hover) {
+    transform: scale(0.9);
+    filter: saturate(0) blur(4px) brightness(0.5);
+}
+
+.paysages_4,
+.paysages_5,
+.paysages_6 {
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.158);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.paysages_4 img,
+.paysages_5 img,
+.paysages_6 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.paysages_4:hover,
+.paysages_5:hover,
+.paysages_6:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.conteneur_2_paysages:hover .paysages_4:not, .paysages_5:not,.paysages_6:not(.paysages_4:hover,
+.paysages_5:hover,
+.paysages_6:hover) {
+    transform: scale(0.9);
+    filter: saturate(0) blur(4px) brightness(0.5);
+}
+
+.paysages_1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.paysages_1:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.paysages_2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.paysages_2:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.paysages_3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.paysages_3:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.paysages_4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.paysages_4:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.paysages_5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.paysages_5:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.paysages_6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.paysages_6:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+
+.conteneur_1_portfolio,
+.conteneur_2_portfolio {
+    display: grid;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: left;
+} 
+
+.conteneur_1_portfolio a,
+.conteneur_2_portfolio a {
+    padding: 0;
+}
+
+.conteneur_1_portfolio img,
+.conteneur_2_portfolio img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.portfolio_1,
+.portfolio_2,
+.portfolio_3 {
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.089);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.portfolio_1 img,
+.portfolio_2 img,
+.portfolio_3 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio_1:hover,
+.portfolio_2:hover,
+.portfolio_3:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.conteneur_1_portfolio:hover .portfolio_1:not, .portfolio_2:not,.portfolio_3:not(.portfolio_1:hover,
+.portfolio_2:hover,
+.portfolio_3:hover) {
+    transform: scale(0.9);
+    filter: saturate(0) blur(4px) brightness(0.5);
+}
+
+.portfolio_4,
+.portfolio_5,
+.portfolio_6 {
+    width: 350px;
+    height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.158);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.portfolio_4 img,
+.portfolio_5 img,
+.portfolio_6 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio_4:hover,
+.portfolio_5:hover,
+.portfolio_6:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.conteneur_2_portfolio:hover .portfolio_4:not, .portfolio_5:not,.portfolio_6:not(.portfolio_4:hover,
+.portfolio_5:hover,
+.portfolio_6:hover) {
+    transform: scale(0.9);
+    filter: saturate(0) blur(4px) brightness(0.5);
+}
+
+.portfolio_1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.portfolio_1:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.portfolio_2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.portfolio_2:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.portfolio_3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.portfolio_3:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.portfolio_4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.portfolio_4:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.portfolio_5 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.portfolio_5:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.portfolio_6 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.portfolio_6:hover {
+    opacity: 60%;
+    cursor: pointer;
+}
+
+.section_3_portfolio {
+    padding-top: clamp(1%, 10%, 3%);
+    padding-left: clamp(1%, 25%, 10%);
+    padding-bottom: clamp(1%, 20%, 5%);
+    padding-right: clamp(1%, 25%, 10%);
+}

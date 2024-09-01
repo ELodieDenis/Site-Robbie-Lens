@@ -5,6 +5,7 @@
     padding-left: clamp(1%, 25%, 10%);
     padding-bottom: clamp(1%, 25%, 10%);
     padding-right: clamp(1%, 25%, 10%);
+    overflow-x: auto;
 }
 
 .h1_tarifs {
@@ -43,6 +44,76 @@
 
 .h3_tarifs {
     color: #A5B4FC;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
 }
 
+.haut_paragraphes_tarifs {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.haut_prix_tarifs {
+    margin-bottom: 20px;
+    color: #A5B4FC;
+    font-weight: bolder;
+}
+
+.haut_consignes_tarifs {
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+
+.shooting_photo_tarifs {
+    margin-right: clamp(1%, 20%, 20%);
+    border-bottom: 1px solid #A5B4FC;
+    border-right: 1px solid #A5B4FC;
+}
+
+.retouches_tarifs {
+    margin-right: clamp(1%, 20%, 20%);
+    border-bottom: 1px solid #A5B4FC;
+    border-right: 1px solid #A5B4FC;
+}
+
+.album_photos_tarifs {
+    border-bottom: 1px solid #A5B4FC;
+    border-right: 1px solid #A5B4FC;
+}
+
+.h2_tarifs h2{
+    background-color: #1F2039;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 550;
+    font-size: 35px;
+    color: #A5B4FC;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+table {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #A5B4FC;
+    text-align: center;
+}
+
+td {
+    padding: 50px;
+}
+
+th {
+    padding: 10px;
+}
+
+.table_responsive {
+    overflow-x: auto;
+    background-color: #1F2039;
+}
